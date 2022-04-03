@@ -1,0 +1,10 @@
+<div class='artist-search-body-div'>
+
+  {{#each data}}
+    <div class='artist-search-container'>
+      <img src='{{this.images.1.url}}' alt='preview' />
+      <h3>{{name}}</h3>
+      <a href='/albums/{{id}}'>View Album</a>
+    </div>
+  {{/each}}
+</div>
